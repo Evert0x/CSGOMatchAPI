@@ -5,6 +5,7 @@ import json
 import pytz
 from flask import request, jsonify
 from flask import Flask
+import settings
 app = Flask(__name__)
 
 def scrape(stars):
